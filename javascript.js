@@ -1,4 +1,4 @@
-var finances = [
+let finances =[
     ['Jan-2010', 867884],
     ['Feb-2010', 984655],
     ['Mar-2010', 322013],
@@ -85,20 +85,24 @@ var finances = [
     ['Dec-2016', 60988],
     ['Jan-2017', 138230],
     ['Feb-2017', 671099]
-    ];
+];
+let ArrayLength=finances.length;
+console.log("Total Months: " + ArrayLength);
 
-    let netarray={}
-    netarray.push(finances[i][1]- finances[i-1][1]) 
+
+    //let netarray={}
+    //netarray.push(finances[i][1]- finances[i-1][1]) 
 
 // O - 86
 
 // Your task is to write JavaScript code that analyzes the records to calculate each of the following:
 
 // The total number of months included in the dataset.
-console.log finances[i][1];
+//console.log finances[i][1];
 
-NumberofMonths= 0;
-
+//finances.forEach(item => {
+ // NumberofMonths = NumberofMonths +
+//});
 
 // Count up how many things are in the array
 //86 in the array 
@@ -142,7 +146,21 @@ NumberofMonths= 0;
   // Look up how to limit the answer to two decimal points
 
 // Sample decrementing for loop
-arr.length =
-for (let i = arr.length - 1; i < 0; i--) {
 
-}
+//let NumberofMonths= 0;
+
+//let NetArray={array.length}
+//NetArray.push(finances[i][1]- finances[i-1][1]) 
+//console.log(finances[i][1])
+//arr.length = for (let i = array.length - 1; i < 0; i--) {
+//console.log(finances[i][1])
+//}
+//console.log finances[i][1]
+//console.log finances[i][1]
+
+//for (let i = 0; i<finances.length; i++){
+//let row = finances[i];
+//};
+
+//arr.length = for (let i = array.length - 1; i < 0; i--) {
+//}
