@@ -1,5 +1,7 @@
 
+# Console Finance Task 
 
+I started by creating a 
 # Unit 4 Challenge: Console Finances
 
 ## Overview
