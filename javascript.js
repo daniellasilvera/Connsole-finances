@@ -1,5 +1,5 @@
 let finances =[
-    ['Jan-2010', 867884],
+    ['Jan-2010', 867884], // String, Number
     ['Feb-2010', 984655],
     ['Mar-2010', 322013],
     ['Apr-2010', -69417],
@@ -86,9 +86,46 @@ let finances =[
     ['Jan-2017', 138230],
     ['Feb-2017', 671099]
 ];
-let ArrayLength=finances.length;
-console.log("Total Months: " + ArrayLength);
+console.log("Financial Analysis:\n----------------------");
+//TOTAL MONTHS:
+console.log("Total Months: " + finances.length);
 
+//TOTAL AMOUNT:
+//let Arr.Length=[finances];
+let TotalNet=0;
+for (let i = 0; i < finances.length; i++){
+  TotalNet+= finances[i][1];
+}
+console.log("Total Amount: $" + TotalNet );
+
+//
+
+//let i = array.length - 1; i < 0; i--);{
+
+//}
+
+//let NetArray={array.length}
+//NetArray.push(finances[i][1]- finances[i-1][1]) 
+//console.log(finances[i][1])
+//arr.length = for (let i = array.length - 1; i < 0; i--) {
+//console.log(finances[i][1])
+//}
+//console.log finances[i][1]
+//console.log finances[i][1]
+
+//for (let i = 0; i<finances.length; i++){
+//let row = finances[i];
+//};
+
+//arr.length = for (let i = array.length - 1; i < 0; i--) {
+//}
+//----------------------------------------------------------------
+
+//for(let i = 0; i< total.length; 1++){
+//et sum = 0;
+//let sum += console.log[i];
+//}
+//console.log(i);
 
     //let netarray={}
     //netarray.push(finances[i][1]- finances[i-1][1]) 
